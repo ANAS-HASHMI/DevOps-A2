@@ -18,6 +18,7 @@ def scrape_webpage(url):
 
     except requests.RequestException as e:
         print(f"Failed to retrieve the webpage: {e}")
+        print("Try Again")
 
 # Replace 'URL_HERE' with the URL of the webpage you want to scrape
 webpage_url = 'https://www.waheediqbal.info/courses/devops23'
